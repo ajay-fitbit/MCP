@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "database": {
+      "command": "C:\\Users\\ajay.singh\\Downloads\\test\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\ajay.singh\\Downloads\\test\\mcp-server-python\\server.py"
+      ],
+      "env": {
+        "DB_SERVER": "AHS-LP-945",
+        "DB_NAME": "Ahs_Bit_Red_QA_8170"
+      }
+    }
+  }
+}
