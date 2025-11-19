@@ -2,13 +2,13 @@
 	"servers": {
 		"my-mcp-server-0d6da389": {
 			"type": "stdio",
-			"command": "C:\\Users\\ajay.singh\\Downloads\\test\\.venv\\Scripts\\python.exe",
+			"command": "C:\\Users\\test\\.venv\\Scripts\\python.exe",
 			"args": [
-				"C:\\Users\\ajay.singh\\Downloads\\test\\mcp-server-python\\server.py"
+				"C:\\Users\\test\\mcp-server-python\\server.py"
 			],
       "env": {
-        "DB_SERVER": "AHS-LP-945",
-        "DB_NAME": "Ahs_Bit_Red_QA_8170"
+        "DB_SERVER": "localhost",
+        "DB_NAME": "TestDB"
       }
 		}
 	},

@@ -41,7 +41,7 @@ A Python-based Model Context Protocol (MCP) server for Microsoft SQL Server data
    Edit `.env` with your database details:
    ```env
    DB_SERVER=your-server-name
-   DB_NAME=Ahs_Bit_Red_QA_8170
+   DB_NAME=ur-db-name
    DB_USER=your-username
    DB_PASSWORD=your-password
    ```
@@ -61,7 +61,7 @@ A Python-based Model Context Protocol (MCP) server for Microsoft SQL Server data
 ### SQL Server Authentication:
 ```env
 DB_SERVER=localhost
-DB_NAME=Ahs_Bit_Red_QA_8170
+DB_NAME=ur-db-name
 DB_USER=sa
 DB_PASSWORD=your-password
 ```
@@ -69,14 +69,14 @@ DB_PASSWORD=your-password
 ### Windows Authentication:
 ```env
 DB_SERVER=localhost\\SQLEXPRESS
-DB_NAME=Ahs_Bit_Red_QA_8170
+DB_NAME=ur-db-name
 # Leave DB_USER and DB_PASSWORD empty for Windows Auth
 ```
 
 ### Remote SQL Server:
 ```env
 DB_SERVER=192.168.1.100
-DB_NAME=Ahs_Bit_Red_QA_8170
+DB_NAME=ur-db-name
 DB_USER=your-username
 DB_PASSWORD=your-password
 ```
@@ -109,11 +109,11 @@ Safely disconnect from the database.
 Your existing stored procedure can be executed like this:
 
 ```python
-# Example: Execute USP_AHS_UM_ACTIVITY_LOG_REFERRALS_GET
+# Example: Execute ur-procedure-name
 {
   "tool": "execute_stored_procedure",
   "arguments": {
-    "procedureName": "USP_AHS_UM_ACTIVITY_LOG_REFERRALS_GET",
+    "procedureName": "ur-procedure-name",
     "parameters": {
       "LOGIN_USERID": 68,
       "PAGE_NUMBER": 1,
